@@ -1,0 +1,87 @@
+body{
+background-color: #bdbbbb;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#block{
+    background:linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12); 
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    height: 590px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white; 
+}
+span{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    font-family: 'Electrolize',cursive;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.far{
+color: white;
+margin-right: 30px;
+}
+/* heading */
+#heading{
+    margin: 3px 0px;
+    font-size: 30px ;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    text-shadow: 2.5px 1.5px 0px red;
+}
+/* data */
+#Input{
+    margin-top: 5px;
+}
+input::placeholder{
+    color:rgb(136, 135, 135) !important;
+}
+input{
+    border: 2px solid white;
+    background-color:black;
+    color: white;
+    border-radius: 4px;
+}
+#btn{
+ padding-left:4px;
+ border:1px solid white;
+ border-radius: 10px;
+ cursor:pointer !important;
+}
+/* weather */
+#weather{
+    display: flex;
+    flex-direction: column;
+}
+#last{
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: #272822;
+    padding: 3px 3px;
+    border-radius: 20px;
+}
+/* table */
+#table{
+    margin-top: 25px;
+    color: white;
+    font-family: 'Rajdhani', sans-serif; 
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.wellfleet{
+    font-family: 'Wellfleet', sans-serif;
+}
+.baloo{
+    font-family: 'Baloo Bhai 2',cursive;
+}
